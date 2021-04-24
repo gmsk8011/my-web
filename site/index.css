@@ -1,0 +1,61 @@
+body
+{
+  background-color: rgb(0, 183, 255);
+}
+
+h1
+{
+color: blue;
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 40px;
+}
+
+div
+{
+  text-align: center;
+}
+
+a
+{
+  color: blue;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+
+#A
+{
+  margin-left: 100px;
+  border-radius: 4px;
+  padding: 20px;
+  height: 300px;
+}
+
+#B
+{
+  border-radius: 4px;
+  padding: 20px;
+  height: 300px;
+}
+
+#C
+{
+  margin-left: 100px;
+  border-radius: 4px;
+  padding: 15px;
+  height: 300px;
+}
+
+#D
+{
+  border-radius: 4px;
+  padding: 15px;
+  height: 300px;
+}
+
+img:hover
+{
+  color: white;
+  box-shadow: 2px 2px 4px #000000;
+}
