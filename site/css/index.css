@@ -1,61 +1,137 @@
 body
 {
-  background-color: rgb(0, 183, 255);
+  background-color: skyblue;
 }
 
-h1
+#header-nav
 {
-color: blue;
-text-align: center;
-font-family: 'Open Sans Condensed', sans-serif;
-font-size: 40px;
+  background-color: blue;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
 }
 
-div
+.navbar-brand h1
 {
+  color: cyan;
+  margin-top: 10px;
+  font-size: 3em;
   text-align: center;
+  text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover ,.navbar-brand a:focus
+{
+  text-decoration: none;
 }
 
-a
+h2, h3
 {
-  color: blue;
-  text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 30px;
+  font-size: 3em;
+  margin: 40px;
+  text-decoration: underline;
 }
 
-#A
+h4
 {
-  margin-left: 100px;
-  border-radius: 4px;
-  padding: 20px;
-  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 3em;
+  text-decoration: underline;
 }
 
-#B
+h5
 {
-  border-radius: 4px;
-  padding: 20px;
-  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 2em;
 }
 
-#C
+p, li
 {
-  margin-left: 100px;
-  border-radius: 4px;
-  padding: 20px;
-  height: 300px;
+  font-size: 1.3em;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-#D
+.pic
 {
-  border-radius: 4px;
-  padding: 20px;
-  height: 300px;
+  /* border: 1px solid black; */
+  height: 600px;
+  width: 900px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img:hover
+#a
 {
-  color: white;
-  box-shadow: 2px 2px 4px #000000;
+  background: url('../images/1.png') no-repeat;
+}
+
+#b
+{
+  background: url('../images/2.png') no-repeat;
+}
+
+#c
+{
+  background: url('../images/3.png') no-repeat;
+}
+
+#d
+{
+  background: url('../images/4.png') no-repeat;
+}
+
+#e
+{
+  background: url('../images/5.png') no-repeat;
+}
+
+#f
+{
+  background: url('../images/6.png') no-repeat;
+}
+
+#g
+{
+  background: url('../images/7.png') no-repeat;
+}
+
+#h
+{
+  background: url('../images/8.png') no-repeat;
+}
+
+#i
+{
+  background: url('../images/9.png') no-repeat;
+}
+
+#logo-img
+{
+  background: url('../images/logo.png') no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 767px)
+{
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+
+@media (min-width: 1200px)
+{
+
 }
