@@ -1,11 +1,11 @@
 body
 {
-  background-color: skyblue;
+  background-color: brown;
 }
 
 #header-nav
 {
-  background-color: blue;
+  background-color: maroon;
   border-radius: 0;
   border: 0;
   margin: 0;
@@ -13,10 +13,10 @@ body
 
 .navbar-brand h1
 {
-  color: cyan;
+  color: darkgrey;
   margin-top: 10px;
   font-size: 3em;
-  font-family: "Game of Thrones";
+  font-family: ;
   text-align: center;
   text-shadow: 1px 1px 1px #222;
 }
